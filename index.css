@@ -5,14 +5,16 @@ body {
     margin: 0;
     padding: 0; 
 }
+/*Header*/
 header {
     background-color: #2c3e50; 
     color: #ecf0f1;
     padding: 10px 0;
-    border-bottom: 5px solid #1a252f; /* Darker shade for the bottom border */
+    border-bottom: 5px solid #1a252f; 
 }
 
 .header-container {
+    font-family: sans-serif;
     text-align: center;
     padding: 0 20px;
 }
@@ -32,7 +34,7 @@ nav {
 }
 
 .nav-link {
-    color: #ffffff; /* Default color for all links set to white */
+    color: #ffffff; 
     text-decoration: none;
     font-size: 1em;
     padding: 5px 10px;
@@ -40,17 +42,18 @@ nav {
 }
 
 .nav-link:hover {
-    color: #ecf0f1; /* Changes text color on hover */
+    color: #ecf0f1; 
 }
 
 .nav-link.active {
-    color: #ffffff; /* Active link color set to white */
+    color: #ffffff; 
     font-weight: bold;
 }
+/*Hero Section*/
 .hero {
     background-image: url('data/closet.jpg');
     background-size: cover;
-    background-position: center -2%; /* Adjusted to move image up */
+    background-position: top;
     height: 250px;
     text-align: center;
 }
@@ -58,7 +61,7 @@ nav {
 .hero-content {
     font-family: sans-serif;
     padding: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
     border-radius: 5px;
     line-height: 1.5;
     display: inline-block;
@@ -89,6 +92,7 @@ nav {
 .shop-now-btn:hover {
     background-color: #2980b9;
 }
+/*Featured Products section*/
 .featured-products {
     padding: 40px 20px;
     text-align: center;
@@ -102,7 +106,7 @@ nav {
 }
 .products-container {
     text-align: center;
-    font-size: 0; /* Remove inline-block whitespace */
+    font-size: 0; 
 }
 .product-card {
     border: 1px solid #ddd;
@@ -113,7 +117,7 @@ nav {
     display: inline-block;
     vertical-align: top;
     margin: 0 10px 20px;
-    font-size: 12px; /* Reset font-size for content */
+    font-size: 12px; 
 }
 .product-card img {
     max-width: 100%;
@@ -131,11 +135,9 @@ nav {
     font-size: 1.1em;
     color: #e74c3c;
     margin: 10px 0;
-    /*display: inline-block;*/
 }
 
 .view-details-btn {
-    /*display: inline-block;*/
     background-color: #3498db;
     color: #ffffff;
     padding: 8px 15px;
@@ -147,6 +149,7 @@ nav {
 .view-details-btn:hover {
     background-color: #2980b9;
 }
+/*Why Choose COMP3612 Section*/
 .comp-3612{
     padding: 40px 20px;
     text-align: center;
@@ -166,6 +169,7 @@ nav {
     max-width: 800px;
     text-align: center;
 }
+/*Footer*/
 footer{
     background-color: #2c3e50; 
     color: #ecf0f1;
@@ -193,12 +197,15 @@ footer p{
     margin:5px 0;
 }
 footer .footer-container a {
-    display: block; /* Ensures each link takes a new line */
-    color: #bdc3c7; /* Grayish color matching the second image */
-    text-decoration: none; /* Removes underline */
+    display: block; 
+    color: #bdc3c7; 
+    text-decoration: none;
     margin: 5px 0;
 }
-#copyright{
-    margin:6px;
+.footer-bottom {
+    border-top: 1px solid #1a252f;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.9em;
 }
 
